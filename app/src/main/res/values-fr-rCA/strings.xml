@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FongJason_Lab3</string>
+    <string name="spin_message">Drapeau de rotation</string>
+</resources>
