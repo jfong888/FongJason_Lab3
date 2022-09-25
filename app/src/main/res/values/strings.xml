@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">FongJason_Lab3</string>
     <string name="spin_message">Spin flag</string>
+    <string name="button_message">Hello</string>
 </resources>
