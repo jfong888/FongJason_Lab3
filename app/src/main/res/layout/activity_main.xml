@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="@color/background"
+    tools:context=".MainActivity"
+    >
 
     <Button
         android:id="@+id/button6"
@@ -36,16 +38,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/flagview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="32dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4"
-        app:srcCompat="@drawable/flag" />
-
     <Switch
         android:id="@+id/switch1"
         android:layout_width="wrap_content"
@@ -54,8 +46,17 @@
         android:text="@string/spin_message"
         app:layout_constraintBottom_toBottomOf="@+id/flagview"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.457"
-        app:layout_constraintStart_toEndOf="@+id/flagview"
-        app:layout_constraintTop_toTopOf="@+id/flagview" />
+        app:layout_constraintTop_toTopOf="@+id/flagview"
+        app:layout_constraintVertical_bias="0.561" />
+
+    <ImageView
+        android:id="@+id/flagview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5"
+        app:srcCompat="@drawable/flag" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
